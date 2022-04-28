@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="f1.css">
+    <script src="f1.js"></script>
+    <title>F1 Results Page J-ATJ</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container" id="layer">
+        <div class="container row">
+            <div class="container text-center col-12"  id="title">
+                <h1 id="titleText">F1 results 2022</h1>
+            </div>
+        </div>
+        <div class="container row">
+            <div class="container text-center" id="data">
+                <div class="row">
+                    <div class="col-5" id="circuitName"></div>
+                    <div class="col-3" id="country"></div> 
+                    <div class="col-4" id="prix"><form name="formPost" id="formPost"><select name="selection" class="form-select" size="2" id="selection" onchange='fselection()'></select></form></div>  
+                </div>
+            </div>
+        </div>
+        <div class="container row">
+            <div class="col-12" id="info">
+                <div class="container" id="results">
+                    <div id="tableDiv">
+
+                        <table class="table table-hover" id="table">
+                            <thead id="tableHeads">
+                                <tr>
+                                    <th>Position</th>
+                                    <th>Number</th>
+                                    <th>Driver</th>
+                                    <th>Team</th>
+                                    <th>Laps</th>
+                                    <th>Time</th>
+                                    <th>Pts</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="particles.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>

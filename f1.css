@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(167, 167, 167);
+    color: black;
+    z-index: 1;
+}
+#layer{
+    margin-left: auto;
+    margin-right: auto;
+}
+#racesOptions{
+    width: 20%;
+    margin-left: 15px;
+}
+#info{
+    width: 100%;
+}
+#title{
+    padding: 10px;
+    background-color: #e10400;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px -5px rgb(246, 246, 246) inset;
+    border-radius: 2px;
+    backdrop-filter: blur(50px);
+}
+#titleText{
+    font-size: 55px;  
+    color: rgb(216, 215, 215);
+    font-style: italic;
+}
+#data{
+    font-size: large;    
+}
+#results{
+    overflow: scroll hidden;
+}
+#country{
+    text-align: center;
+    font-size: 25px;
+    padding: 3%;
+}
+#circuitName{
+    text-align: center;
+    font-size: 25px;
+    padding: 3%;
+}
+#prix{
+    padding: 2%;
+}
+#selection{
+    background-color: rgba(167, 167, 167, 0.836);
+    font-size: 20px;
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
