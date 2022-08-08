@@ -49,7 +49,14 @@ dataFunc = async() =>{
             });
         }
     } catch(error){
-        alert("No data for: " + grandPrix);
+        Swal.fire({
+            icon: 'info',
+            title: `No data for ${grandPrix} `,
+            text: "That race hasn't been run yet!",
+            width: 600,
+            color: '#000',
+            background: '#c8c8c8'
+        })
     };
 
     try{
